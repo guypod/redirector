@@ -137,7 +137,7 @@
         <maven.javadoc.plugin.version>2.10.3</maven.javadoc.plugin.version>
         <maven.plugin.api.version>2.0</maven.plugin.api.version>
         <maven.plugin.plugin.version>2.6</maven.plugin.plugin.version>
-        <maven.project.version>2.0</maven.project.version>
+        <maven.project.version>2.0.7</maven.project.version>
         <maven.release.plugin.version>2.5.2</maven.release.plugin.version>
         <maven.resources.plugin.version>2.4</maven.resources.plugin.version>
         <maven.site.plugin.version>3.0-beta-3</maven.site.plugin.version>
@@ -752,7 +752,7 @@
             <id>Docker-Linux</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
@@ -766,14 +766,14 @@
             <id>Docker-HyperV</id>
             <properties>
                 <docker.host>tcp://localhost:2375</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
         <profile>
             <id>Docker-MacOS-HyperV</id>
             <properties>
                 <docker.host>unix:///var/run/docker.sock</docker.host>
-                <cert.path />
+                <cert.path/>
             </properties>
         </profile>
     </profiles>
